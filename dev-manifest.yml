@@ -1,0 +1,9 @@
+---
+applications:
+- name: roster  
+  instances: 1
+  memory: 750M
+  buildpack: java_buildpack
+  services:
+   - mysql
+     
