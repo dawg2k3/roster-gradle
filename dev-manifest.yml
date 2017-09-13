@@ -2,9 +2,9 @@
 applications:
 - name: roster  
   instances: 1
-  memory: 750M
+  memory: 1G
   buildpack: java_buildpack
-  timeout: 120
+  timeout: 180
   services:
    - mysql
    - config-server-service
