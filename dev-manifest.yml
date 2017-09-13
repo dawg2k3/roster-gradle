@@ -6,4 +6,5 @@ applications:
   buildpack: java_buildpack
   services:
    - mysql
+   - config-server-service
      
