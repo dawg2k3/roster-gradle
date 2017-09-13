@@ -4,6 +4,7 @@ applications:
   instances: 1
   memory: 750M
   buildpack: java_buildpack
+  timeout: 120
   services:
    - mysql
    - config-server-service
